@@ -1,0 +1,10 @@
+From the data below, grab the title "Full Stack Web Developer" from the job posting.
+
+software_jobs = [{job_posting: {title: "Full Stack Web Developer", location: "Florida", salary: 50000}}]
+  Check here to provide feedback if you feel this question is not clear enough for you to answer it
+  
+  
+   software_jobs = [{job_posting: {title: "Full Stack Web Developer", location: "Florida", salary: 50000}}]
+
+
+software_jobs[0][:job_posting][:title]
