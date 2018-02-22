@@ -1,0 +1,41 @@
+Prove De Morgan’s Law with truth tables. Show that not (A or B) equals not A and not B for all possible boolean values of A and B.
+
+In other words, solve not (A or B) four times for each of the following values of A and B.
+
+A = true, B = true
+A = true, B = false
+A = false, B = true
+A = false, B = false
+Then do it again (four more times) for not A and not B.
+
+In the end, you should have collected eight answers (all either true or false).
+
+To help organize your answers, fill in two truth tables, one for each expression.
+
+A = true	A = false
+B = true		
+B = false		
+Each table cell represents a particular combination of A (true or false) and B (true or false). For every combination, fill in the corresponding value - 2 truth tables, 4 boxes each, 8 boxes in total, one for each of your answers.
+
+Submit your table cell values like this:
+
+not (A or B)
+
+true,true
+true,true
+not A and not B
+
+false,false
+false,false
+This, of course, is not the correct answer.
+
+Hint: If you do this correctly, both tables should have the same values. That’s the proof of DeMorgan’s Law.
+
+
+
+
+false, false
+fasle, true
+
+false, false
+fasle, true
